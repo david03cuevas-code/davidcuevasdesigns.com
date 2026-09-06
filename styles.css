@@ -1256,3 +1256,16 @@ footer {
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
 }
+
+/* Eradicate Netlify Floating Badges & Injected Snippets */
+.netlify-badge,
+[class*="netlify-badge"],
+[id*="netlify-badge"],
+iframe[src*="netlify"],
+div[data-netlify-badge],
+.netlify-identity-widget {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
