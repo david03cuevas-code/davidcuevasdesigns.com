@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://davidcuevasdesigns.com/sitemap.xml
