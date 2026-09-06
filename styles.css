@@ -251,6 +251,16 @@ header.scrolled {
   color: var(--cedar-gold);
 }
 
+.nav-cta-group {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 1.5rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid rgba(212, 163, 115, 0.2);
+}
+
 /* Mobile Hamburger Toggle Button */
 .mobile-toggle {
   display: none;
@@ -1200,19 +1210,27 @@ footer {
 /* Responsive Breakpoints & Mobile Phone Optimization */
 @media (max-width: 1280px) {
   .nav-links {
-    gap: 1rem;
+    gap: 0.95rem;
   }
   .nav-links a {
     font-size: 0.82rem;
+  }
+  .nav-cta-group {
+    margin-left: 1rem;
+    padding-left: 1rem;
   }
 }
 
 @media (max-width: 1120px) {
   .nav-links {
-    gap: 0.75rem;
+    gap: 0.7rem;
   }
   .nav-links a {
     font-size: 0.78rem;
+  }
+  .nav-cta-group {
+    margin-left: 0.75rem;
+    padding-left: 0.75rem;
   }
   .btn-phone-nav {
     padding: 0.55rem 0.85rem;
@@ -1221,6 +1239,11 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .nav-cta-group {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
   .hero-grid, .founder-grid, .joinery-display, .estimator-card, .reviews-grid, .service-area-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
