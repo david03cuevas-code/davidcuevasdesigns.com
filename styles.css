@@ -192,16 +192,16 @@ header.scrolled {
 
 .brand-logo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.85rem;
   text-decoration: none;
 }
 
 .brand-icon {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   background: linear-gradient(135deg, #d4a373, #c97c5d);
-  border-radius: 7px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,26 +211,43 @@ header.scrolled {
   font-size: 1.25rem;
   box-shadow: 0 4px 14px rgba(212, 163, 115, 0.22);
   flex-shrink: 0;
+  margin-top: 1px;
 }
 
 .brand-title {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text-main);
-  letter-spacing: 0.04em;
-  line-height: 1.1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.brand-title span {
+.brand-name-top {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.brand-name-bottom {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: 0.18em;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.brand-guild {
   display: block;
   font-family: var(--font-body);
-  font-size: 0.66rem;
+  font-size: 0.62rem;
   font-weight: 600;
   color: var(--cedar-gold);
-  letter-spacing: 0.22em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .nav-links {
