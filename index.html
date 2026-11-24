@@ -8,6 +8,10 @@
   <meta name="keywords" content="David Cuevas Designs, David Cuevas, David Cuevas St Petersburg FL, David Cuevas Timber Guild, Custom Cedar Pergolas St Petersburg FL, Heavy Timber Carports Clearwater, Japanese Timber Joinery Florida, Tri-Axis Lock System">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="google-site-verification" content="cI6fvC961kRyEF2-QpnBQfPCD1Gi2hqDQt4zHRjGUbQ">
+  <meta name="geo.region" content="US-FL">
+  <meta name="geo.placename" content="St. Petersburg, FL">
+  <meta name="geo.position" content="27.8559;-82.6441">
+  <meta name="ICBM" content="27.8559, -82.6441">
   <link rel="canonical" href="https://davidcuevasdesigns.com/">
 
   <!-- Google Analytics 4 (GA4 Container) -->
@@ -31,21 +35,46 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": ["GeneralContractor", "LocalBusiness"],
+        "@type": ["HomeAndConstructionBusiness", "GeneralContractor", "LocalBusiness"],
         "@id": "https://davidcuevasdesigns.com/#business",
         "name": "David Cuevas Designs",
         "legalName": "David Cuevas Designs LLC",
+        "alternateName": "David Cuevas Timber Guild",
         "url": "https://davidcuevasdesigns.com",
         "logo": "https://davidcuevasdesigns.com/images/pergola_sunlight.jpg",
-        "image": "https://davidcuevasdesigns.com/images/pergola_sunlight.jpg",
-        "description": "Master Shipwright David Cuevas crafts custom 8x8 Western Red Cedar pergolas, pavilions, and heavy-timber carports using Japanese interlocking joinery, proprietary Tri-Axis 45° compound joints, and marine-grade Teak Oil finishes. Engineered for 160+ MPH hurricane wind loads in St. Petersburg, Clearwater, Snell Isle, Belleair, and South Tampa.",
+        "image": [
+          "https://davidcuevasdesigns.com/images/pergola_sunlight.jpg",
+          "https://davidcuevasdesigns.com/images/david_craftsman.jpg",
+          "https://davidcuevasdesigns.com/images/tri_axis_real_angle.jpg",
+          "https://davidcuevasdesigns.com/images/tri_axis_real_roof.jpg",
+          "https://davidcuevasdesigns.com/images/pergola_night.jpg",
+          "https://davidcuevasdesigns.com/images/pergola_daylight.jpg"
+        ],
+        "description": "Master Shipwright David Cuevas crafts custom 8x8 Western Red Cedar pergolas, outdoor pavilions, and heavy-timber carports using Japanese interlocking joinery, proprietary Tri-Axis 45° compound joints, and marine-grade Teak Oil finishes. Engineered for 160+ MPH hurricane wind loads within a 15-mile radius of Northeast St. Petersburg (33702), including Pinellas County beaches, Clearwater, Belleair, Safety Harbor, and South Tampa.",
         "telephone": "+1-813-822-1979",
         "email": "consultation@davidcuevasdesigns.com",
         "priceRange": "$$$$",
+        "founder": {
+          "@type": "Person",
+          "@id": "https://davidcuevasdesigns.com/#founder",
+          "name": "David Cuevas",
+          "jobTitle": "Master Shipwright & Master Timber Joiner",
+          "description": "St. Petersburg, Florida custom heavy-timber architect, shipwright, and master joiner specializing in Western Red Cedar pergolas, pavilions, and hurricane-rated timber carports.",
+          "worksFor": { "@id": "https://davidcuevasdesigns.com/#business" }
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
         "knowsAbout": [
           "Heavy Timber Construction",
           "Western Red Cedar Pergolas St Petersburg FL",
           "Custom Timber Carports Clearwater FL",
+          "Custom Cedar Pavilions South Tampa FL",
           "Japanese Timber Joinery",
           "Tri-Axis 45 Degree Compound Joint",
           "Teak Oil Wood Treatment",
@@ -58,30 +87,55 @@
           "@type": "PostalAddress",
           "addressLocality": "St. Petersburg",
           "addressRegion": "FL",
-          "postalCode": "33701",
+          "postalCode": "33702",
           "addressCountry": "US"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 27.7731,
-          "longitude": -82.6399
+          "latitude": 27.8559,
+          "longitude": -82.6441
         },
-        "hasMap": "https://www.google.com/maps/search/?api=1&query=David+Cuevas+Designs+St+Petersburg+FL",
-        "sameAs": [
-          "https://www.google.com/maps/search/?api=1&query=David+Cuevas+Designs+St+Petersburg+FL"
-        ],
+        "serviceArea": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 27.8559,
+            "longitude": -82.6441
+          },
+          "geoRadius": "24140"
+        },
         "areaServed": [
+          {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+              "@type": "GeoCoordinates",
+              "latitude": 27.8559,
+              "longitude": -82.6441
+            },
+            "geoRadius": "24140"
+          },
           { "@type": "City", "name": "St. Petersburg", "sameAs": "https://en.wikipedia.org/wiki/St._Petersburg,_Florida" },
+          { "@type": "City", "name": "Pinellas Park" },
+          { "@type": "City", "name": "Gulfport" },
+          { "@type": "City", "name": "South Pasadena" },
+          { "@type": "City", "name": "St. Pete Beach" },
+          { "@type": "AdministrativeArea", "name": "Tierra Verde" },
+          { "@type": "City", "name": "Treasure Island" },
+          { "@type": "City", "name": "Madeira Beach" },
+          { "@type": "City", "name": "Seminole" },
+          { "@type": "City", "name": "Largo" },
           { "@type": "City", "name": "Clearwater", "sameAs": "https://en.wikipedia.org/wiki/Clearwater,_Florida" },
+          { "@type": "City", "name": "Belleair" },
+          { "@type": "City", "name": "Belleair Beach" },
+          { "@type": "City", "name": "Safety Harbor" },
+          { "@type": "City", "name": "Dunedin" },
+          { "@type": "City", "name": "Oldsmar" },
           { "@type": "AdministrativeArea", "name": "Snell Isle" },
           { "@type": "AdministrativeArea", "name": "Old Northeast St. Pete" },
-          { "@type": "AdministrativeArea", "name": "Belleair & Belleair Shore" },
-          { "@type": "AdministrativeArea", "name": "Clearwater Beach" },
+          { "@type": "AdministrativeArea", "name": "Riviera Bay & Shore Acres" },
           { "@type": "AdministrativeArea", "name": "South Tampa" },
           { "@type": "AdministrativeArea", "name": "Davis Islands" },
-          { "@type": "AdministrativeArea", "name": "Tierra Verde" },
-          { "@type": "AdministrativeArea", "name": "Safety Harbor" },
-          { "@type": "AdministrativeArea", "name": "Dunedin" }
+          { "@type": "AdministrativeArea", "name": "Palma Ceia & Hyde Park" }
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -92,14 +146,14 @@
               "itemOffered": {
                 "@type": "Service",
                 "name": "Custom Western Red Cedar Pergola St. Petersburg",
-                "description": "8x8 Western Red Cedar open shade pergolas with Japanese interlocking joinery and Teak Oil finish."
+                "description": "8x8 Western Red Cedar open shade pergolas with Japanese interlocking joinery and marine-grade Teak Oil finish."
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Heavy Timber Frame Carport Clearwater",
+                "name": "Heavy Timber Frame Carport Clearwater & South Tampa",
                 "description": "Executive timber carports engineered for 160+ MPH wind loads and historic district HOA approvals."
               }
             },
@@ -112,14 +166,15 @@
               }
             }
           ]
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "5",
-          "bestRating": "5",
-          "worstRating": "1"
         }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://davidcuevasdesigns.com/#website",
+        "url": "https://davidcuevasdesigns.com/",
+        "name": "David Cuevas Designs",
+        "description": "Custom 8x8 Western Red Cedar pergolas, pavilions, and heavy-timber carports serving a 15-mile radius around St. Petersburg, FL 33702.",
+        "publisher": { "@id": "https://davidcuevasdesigns.com/#business" }
       },
       {
         "@type": "FAQPage",
@@ -154,6 +209,22 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Western Red Cedar contains natural tannins and oils that resist moisture, insects, and decay. Applying marine-grade Teak Oil penetrates deep into the grain, protecting the timber from intense Florida UV rays and tropical downpours while accentuating the rich natural grain without peeling like surface stains."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does on-site installation take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because David pre-cuts, mortises, and test-fits 90% of the heavy timber structure off-site in his studio shop, on-site installation at your estate usually takes only 1 to 2 days, minimizing noise and disruption to your property."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What areas within 15 miles of St. Petersburg (33702) does David Cuevas Designs serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Based in Northeast St. Petersburg (33702), David Cuevas Designs serves residential estates within a 15-mile radius across Pinellas County and South Tampa—including Snell Isle, Old Northeast, Shore Acres, Riviera Bay, Venetian Isles, Pinellas Park, Gulfport, South Pasadena, St. Pete Beach, Tierra Verde, Treasure Island, Madeira Beach, Seminole, Largo, Clearwater, Belleair, Belleair Beach, Safety Harbor, Dunedin, Oldsmar, and South Tampa neighborhoods across the Gandy Bridge (Ballast Point, Bayshore, Palma Ceia, Hyde Park, Beach Park, and Davis Islands)."
             }
           }
         ]
@@ -358,29 +429,29 @@
     </div>
   </section>
 
-  <!-- Local Service Areas Hub (St. Pete & Clearwater Local SEO Engine) -->
+  <!-- Local Service Areas Hub (15-Mile St. Petersburg 33702 Local SEO Engine) -->
   <section id="regions" class="regional-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-subtitle">REGIONAL SERVICE GUILD</span>
-        <h2>Serving Premier St. Petersburg, Clearwater & Tampa Estates</h2>
-        <p>White-glove heavy timber architecture built to local municipal codes across coastal Pinellas and Hillsborough counties.</p>
+        <span class="section-subtitle">15-MILE REGIONAL SERVICE GUILD • ST. PETERSBURG 33702</span>
+        <h2>Serving Premier St. Petersburg, Clearwater & South Tampa Estates</h2>
+        <p>Based in Northeast St. Petersburg (33702), we deliver white-glove heavy timber architecture across a 15-mile coastal radius spanning Pinellas County and South Tampa—built to municipal hurricane codes.</p>
       </div>
 
       <div class="service-area-grid">
         <div class="area-card">
-          <h3><i class="fa-solid fa-building-columns"></i> St. Petersburg Estates</h3>
-          <p>Serving Snell Isle, Old Northeast, Venetian Isles, Downtown St. Pete, and St. Pete Beach. Hand-fitted 8x8 cedar pergolas and carports engineered for coastal wind loads and historic preservation standards.</p>
+          <h3><i class="fa-solid fa-building-columns"></i> St. Petersburg & Gulf Beaches</h3>
+          <p>Serving Riviera Bay, Shore Acres, Venetian Isles, Snell Isle, Old Northeast, Downtown St. Pete, Pinellas Park, Gulfport, South Pasadena, St. Pete Beach, Tierra Verde, Treasure Island, and Madeira Beach.</p>
         </div>
 
         <div class="area-card">
-          <h3><i class="fa-solid fa-water"></i> Clearwater & Belleair</h3>
-          <p>Serving Clearwater Beach, Belleair Shore, Island Estates, and Safety Harbor. Vessel-grade Western Red Cedar treated with marine Teak Oil to withstand salt air spray and intense UV exposure.</p>
+          <h3><i class="fa-solid fa-water"></i> Mid-Pinellas, Clearwater & Belleair</h3>
+          <p>Serving Feather Sound, Largo, Seminole, Clearwater, Clearwater Beach, Belleair, Belleair Beach, Safety Harbor, Dunedin, and Oldsmar with salt-air resistant Western Red Cedar and marine Teak Oil finishes.</p>
         </div>
 
         <div class="area-card">
           <h3><i class="fa-solid fa-gem"></i> South Tampa & Davis Islands</h3>
-          <p>Serving Davis Islands, Hyde Park, Culbreath Isles, and Beach Park. Custom timber-framed carports and luxury poolside pavilions designed for high-value residential properties.</p>
+          <p>Directly across the Gandy Bridge—serving Ballast Point (33611), Bayshore Beautiful, Palma Ceia (33629), Beach Park &amp; Westshore (33609), Hyde Park, and Davis Islands (33606) with HOA-compliant custom builds.</p>
         </div>
       </div>
     </div>
@@ -669,6 +740,17 @@
             <p>Because David pre-cuts, mortises, and test-fits 90% of the heavy timber structure off-site in his studio shop, on-site installation at your estate usually takes only 1 to 2 days, minimizing noise and disruption to your property.</p>
           </div>
         </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>What areas within 15 miles of St. Petersburg (33702) does David Cuevas Designs serve?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Based in Northeast St. Petersburg (33702), David Cuevas Designs serves residential estates within a 15-mile radius across Pinellas County and South Tampa—including Snell Isle, Old Northeast, Shore Acres, Riviera Bay, Venetian Isles, Pinellas Park, Gulfport, South Pasadena, St. Pete Beach, Tierra Verde, Treasure Island, Madeira Beach, Seminole, Largo, Clearwater, Belleair, Belleair Beach, Safety Harbor, Dunedin, Oldsmar, and South Tampa neighborhoods across the Gandy Bridge (Ballast Point, Bayshore, Palma Ceia, Hyde Park, Beach Park, and Davis Islands).</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -792,11 +874,12 @@
         <div class="form-group">
           <label for="client-location">Property Neighborhood / Location *</label>
           <select name="location" id="client-location">
+            <option value="Northeast St. Pete / Riviera Bay / Shore Acres (33702, 33703)">Northeast St. Pete / Riviera Bay / Shore Acres (33702, 33703)</option>
             <option value="St. Petersburg / Snell Isle / Old NE (33701, 33704)">St. Petersburg / Snell Isle / Old NE (33701, 33704)</option>
-            <option value="Clearwater Beach / Belleair (33767, 33786)">Clearwater Beach / Belleair (33767, 33786)</option>
-            <option value="South Tampa / Davis Islands (33606, 33629)">South Tampa / Davis Islands (33606, 33629)</option>
-            <option value="Tierra Verde / St. Pete Beach (33715)">Tierra Verde / St. Pete Beach (33715)</option>
-            <option value="Dunedin / Safety Harbor">Dunedin / Safety Harbor</option>
+            <option value="South Tampa / Davis Islands / Palma Ceia (33606, 33609, 33611, 33629)">South Tampa / Davis Islands / Palma Ceia (33606, 33609, 33611, 33629)</option>
+            <option value="Gulfport / St. Pete Beach / Tierra Verde / Treasure Island (33706, 33707, 33715)">Gulfport / St. Pete Beach / Tierra Verde / Treasure Island (33706, 33707, 33715)</option>
+            <option value="Pinellas Park / Largo / Seminole / Madeira Beach (33770-33782)">Pinellas Park / Largo / Seminole / Madeira Beach (33770-33782)</option>
+            <option value="Clearwater / Belleair / Safety Harbor / Dunedin / Oldsmar">Clearwater / Belleair / Safety Harbor / Dunedin / Oldsmar</option>
             <option value="Other Greater Tampa Bay Location">Other Greater Tampa Bay Location</option>
           </select>
         </div>
@@ -829,19 +912,19 @@
         </div>
 
         <div>
-          <h4 style="margin-bottom: 1.1rem;">Service Areas</h4>
+          <h4 style="margin-bottom: 1.1rem;">15-Mile Service Areas</h4>
           <ul style="list-style: none; display: grid; gap: 0.4rem; font-size: 0.88rem; color: var(--text-muted);">
-            <li>St. Petersburg & Snell Isle</li>
-            <li>Clearwater Beach & Belleair</li>
-            <li>South Tampa & Davis Islands</li>
-            <li>Tierra Verde & St. Pete Beach</li>
-            <li>Dunedin & Safety Harbor</li>
+            <li>St. Petersburg, Riviera Bay, Shore Acres &amp; Snell Isle</li>
+            <li>Gulfport, St. Pete Beach, Tierra Verde &amp; Treasure Island</li>
+            <li>Pinellas Park, Largo, Seminole &amp; Madeira Beach</li>
+            <li>Clearwater, Belleair, Safety Harbor, Dunedin &amp; Oldsmar</li>
+            <li>South Tampa, Bayshore, Palma Ceia, Hyde Park &amp; Davis Islands</li>
           </ul>
         </div>
 
         <div>
           <h4 style="margin-bottom: 1.1rem;">Contact David Cuevas</h4>
-          <p style="font-size: 0.88rem;">Master Joiner Studio<br>St. Petersburg & Clearwater, FL<br><br>
+          <p style="font-size: 0.88rem;">Master Joiner Studio • Service-Area Business<br>St. Petersburg, FL 33702 (15-Mile Radius)<br><br>
           <i class="fa-solid fa-phone text-gold"></i> <a href="tel:8138221979" style="color: var(--text-main); text-decoration: none;">(813) 822-1979</a><br>
           <i class="fa-solid fa-robot text-gold"></i> 24/7 AI Voice Assistant Active<br>
           <i class="fa-solid fa-envelope text-gold"></i> consultation@davidcuevasdesigns.com</p>

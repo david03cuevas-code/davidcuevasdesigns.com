@@ -3,12 +3,40 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://davidcuevasdesigns.com/</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://davidcuevasdesigns.com/images/pergola_sunlight.jpg</image:loc>
-      <image:title>David Cuevas Designs Custom 8x8 Western Red Cedar Pergola St Petersburg FL</image:title>
+      <image:title>David Cuevas Designs Custom 8x8 Western Red Cedar Pergola St. Petersburg FL 33702</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/david_craftsman.jpg</image:loc>
+      <image:title>Master Shipwright and Joiner David Cuevas Hand-Fitting Cedar Timber in Pinellas County FL</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/tri_axis_real_angle.jpg</image:loc>
+      <image:title>Tri-Axis 45 Degree Compound Lock Timber Joinery by David Cuevas Designs</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/tri_axis_real_roof.jpg</image:loc>
+      <image:title>Heavy Timber Cedar Carport Roof Framing Clearwater and St. Petersburg FL</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/pergola_night.jpg</image:loc>
+      <image:title>Night Uplighted Western Red Cedar Poolside Pergola Downtown St. Petersburg FL</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/pergola_daylight.jpg</image:loc>
+      <image:title>Poolside Heavy Timber Cedar Pergola Clearwater and South Tampa FL</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/david_master_joint.jpg</image:loc>
+      <image:title>Japanese Mortise and Tenon Timber Joinery St. Petersburg FL</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://davidcuevasdesigns.com/images/tri_axis_real_close.jpg</image:loc>
+      <image:title>Close-Up 8x8 Cedar Interlocking Timber Joint Pinellas County FL</image:title>
     </image:image>
   </url>
 </urlset>
